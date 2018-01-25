@@ -1,0 +1,211 @@
+= Release Notes 1.0.0
+My Project
+v1.0.0
+// variables
+:MyProj: My fancy project name
+// Settings:
+:source-highlighter: Coderay coderay
+:sectnums:
+:chapter-label:
+:doctype: book
+:toc: left
+:toclevels: 3
+:imagesdir[:imagesdir: images]
+
+
+
+
+[.thumb]
+image::sunset.jpg[scaledwidth=20%]
+
+[abstract]
+
+
+== Introduction
+
+This document is an overview of the release architecture of Argenta. +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+,===
+*Author*, Bineyam Kokobe
+*Status*, Draft
+*Version*, 0.1
+*Created*,  January 25th 2018
+*Last changed*, January 26th 2018
+,===
+
+
+<<<
+
+== Revision History
+
+*Only for this release* +
+ +
+[format="csv", options="header"]
+|===
+Date, Version, Description, Author
+*15.01.2016*,0.1,First draft, Bineyam Kokobe
+*15.01.2016*,0.2,Updates, Bineyam Kokobe
+|===
+
+<<<
+
+== Version Description
+
+
+=== Deliverables (Sub components/Features)
+
+bla bla bla...
+
+<<<
+
+
+=== Dependencies
+
++++<span style="color: #FF0000">Just some red text</span>+++ +
+
+=== Comments
+
+Comments comments +
+ +
+ +
+*+++<span style="color: red;">WARNING: red and bold</span>+++* +
+
+<<<
+
+
+== DLV
+:source-highlighter: pygmentize
+'''
+
+=== SBP
+
+
+.Optional Title
+[source,perl]
+----
+# *Source* block
+# Use: highlight code listings
+# (require `source-highlight` or `pygmentize`)
+use DBI;
+my $dbh = DBI->connect('...',$u,$p)
+    or die "connect: $dbh->errstr";
+----
+
+
+.app.rb
+[source,ruby]
+----
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
+
+
+.code.pl
+[source,perl]
+----
+use DBI;
+my $dbh = DBI->connect('...',$u,$p)
+    or die "connect: $dbh->errstr";
+----
+
+.script.sh
+[source,bash]
+----
+
+//comment echo "Hello!!"
+$echo "Hello!!"
+$ssh dpk@sv-arg-bes-d2
+$find . -type f | awk
+//BAS
+$ssh dpk@sv-arg-fasbas-l1
+//BIN_BAS
+$ssh bassbp@sv-arg-fasbas-l1
+//BIN_FAS
+$ssh fassbp@sv-arg-fasbas-l1
+----
+
+.source.java
+[source,java]
+----
+      public static void main(String[] args) {
+		SpringApplication.run(ReleaseReportApplication.class, args);
+----
+
+== DV5
+'''
+
+=== SBP
+.UNIX Connection details
+----
+BES:
+ssh cpk@sv-arg-bes-d1
+BAS:
+ssh cpk@sv-arg-fasbas-d1
+BAS_SBP:
+ssh bassbp@sv-arg-fasbas-d1
+FAS_SBP:
+ssh fassbp@sv-arg-fasbas-d1
+FAS:
+ssh wocadm@sv-arg-fasbas-d1
+----
+=== ThalerV2
+
+== BLD
+'''
+=== SBP
+=== ThalerV2
+== AC5
+'''
+=== SBP
+=== ThalerV2
+== SI2
+'''
+=== SBP
+=== ThalerV2
+== MIG
+'''
+=== SBP
+=== ThalerV2
+== DVL
+'''
+=== SBP
+=== ThalerV2
+== BAP
+'''
+=== SBP
+=== ThalerV2
+==== ACP
+==== SIB
+== ACC
+'''
+=== SBP
+=== ThalerV2
+== SIM
+'''
+=== SBP
+=== ThalerV2
+
+
+
+
