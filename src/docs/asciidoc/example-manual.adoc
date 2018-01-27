@@ -92,7 +92,6 @@ Comments comments +
 
 
 == DLV
-:source-highlighter: pygmentize
 '''
 
 === SBP
